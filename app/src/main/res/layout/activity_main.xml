@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/holyvinylcover" />
+
+    <TextView
+        android:id="@+id/store_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/holyuni"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="100"
+        android:text="Holy Vinyl"
+        android:textColor="#FFE900"
+        android:textSize="80sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/store_title"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="7dp"
+        android:fontFamily="@font/holyuni"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="100"
+        android:text="Store"
+        android:textColor="#FFE900"
+        android:textSize="70sp" />
+
+
+    <ImageView
+        android:id="@+id/icon_map_location"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_above="@id/icon_telephone"
+        android:layout_margin="7dp"
+        android:src="@drawable/icon_map_location" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/icon_telephone"
+        android:layout_margin="7dp"
+        android:layout_toRightOf="@id/icon_map_location"
+        android:fontFamily="@font/holyuni"
+        android:text="New York City"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/icon_telephone"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_above="@id/icon_hour_operation"
+        android:layout_margin="7dp"
+        android:src="@drawable/icon_telephone" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/icon_hour_operation"
+        android:layout_margin="7dp"
+        android:layout_toRightOf="@id/icon_telephone"
+        android:fontFamily="@font/holyuni"
+        android:text="347-274-4523"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/icon_hour_operation"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="7dp"
+        android:src="@drawable/icon_working_hours" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="7dp"
+        android:layout_toRightOf="@id/icon_hour_operation"
+        android:fontFamily="@font/holyuni"
+        android:text="09:00 AM - 05:00 PM"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+</RelativeLayout>
+
+
